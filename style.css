@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+}
+
+body {
+  background-color: var(--bs-light);
+  color: var(--bs-dark);
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 1rem;
+}
+
+.card {
+  width: max-content;
+}
+
+.card-header {
+  background-color: var(--bs-dark);
+  color: var(--bs-light);
+}
+
+.input-group-text {
+  background-color: var(--bs-light);
+  color: var(--bs-dark);
+  height: max-content;
+  cursor: pointer;
+}
+
+.form-control {
+  width: auto;
+  height: max-content;
+}
+
+input[type="color"] {
+  display: block;
+  margin: 0 auto;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: none;
+  outline: none;
+}
+
+.opacity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: max-content;
+  margin: 0.5rem 0;
+  color: var(--bs-dark);
+}
+
+.opacity-range {
+  width: auto;
+  height: 1.5rem;
+}
+
+input[type="range"] {
+  width: 50%;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--bs-dark);
+    color: var(--bs-light);
+  }
+
+  .card-header {
+    background-color: var(--bs-dark);
+    color: var(--bs-light);
+  }
+
+  .input-group-text {
+    background-color: var(--bs-light);
+    color: var(--bs-dark);
+  }
+
+  .opacity {
+    color: var(--bs-dark);
+  }
+}
