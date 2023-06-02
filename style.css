@@ -18,6 +18,10 @@ body {
   padding: 1rem;
 }
 
+.row {
+  width: 250px;
+}
+
 .card {
   width: max-content;
 }
@@ -85,5 +89,9 @@ input[type="range"] {
 
   .opacity {
     color: var(--bs-dark);
+  }
+
+  label {
+    color: var(--bs-light);
   }
 }

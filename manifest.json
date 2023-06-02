@@ -13,8 +13,5 @@
     "48": "hex-color-cat-48.png",
     "128": "hex-color-cat-128.png"
   },
-  "language": {
-    "default_locale": "en"
-  },
   "permissions": ["clipboardWrite"]
 }
