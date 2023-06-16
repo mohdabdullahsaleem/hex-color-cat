@@ -1,6 +1,6 @@
 {
   "name": "Hex Color Cat",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "This is an extension used to generate random hex / alpha-hex color codes.",
   "manifest_version": 3,
   "author": "Mohammad Saleem",

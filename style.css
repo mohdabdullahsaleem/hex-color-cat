@@ -19,11 +19,11 @@ body {
 }
 
 .row {
-  width: 250px;
+  min-width: 330px;
 }
 
 .card {
-  width: max-content;
+  width: 300px;
 }
 
 .card-header {
@@ -67,8 +67,12 @@ input[type="color"] {
   height: 1.5rem;
 }
 
+.input-group-text {
+  width: 5rem;
+}
+
 input[type="range"] {
-  width: 50%;
+  width: 100%;
 }
 
 @media (prefers-color-scheme: dark) {
