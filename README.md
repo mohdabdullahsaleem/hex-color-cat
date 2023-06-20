@@ -14,3 +14,6 @@ Go to the Microsoft Edge Addons or the Chrome Extensions Store and install.
 ### Microsoft Edge Addons
 
 [Store Addon Link](https://microsoftedge.microsoft.com/addons/detail/hex-color-cat/cpfioeafcgkaemgkfnncejbdilngafci)
+
+### Chrome Web Store
+[Store Extension Link](https://chrome.google.com/webstore/detail/hex-color-cat/hmpeoopnhfghljalaekfmlnbiiaeaepo)
